@@ -27,7 +27,7 @@
                 </li>
             </ul>
         </nav>
-        <button type="button" class="search-button">
+        <button type="button" class="search-button" aria-label="search on DLK">
             <img src="/image/header/search-button.svg" alt="search">
         </button>
         <a href="/contact.html" class="contact-button">Contact us</a>
@@ -38,10 +38,10 @@
             <img src="image/hero/hero-image.png" alt="Monster" class="hero-img">
             <span class="sidebar-number">01</span>
             <ul class="sidebar">
-                <li class="sidebar-button"><button type="button"></button></li>
-                <li class="sidebar-button"><button type="button"></button></li>
-                <li class="sidebar-button"><button type="button"></button></li>
-                <li class="sidebar-button"><button type="button"></button></li>
+                <li class="sidebar-button"><button type="button"  aria-label="change slide"></button></li>
+                <li class="sidebar-button"><button type="button"  aria-label="change slide"></button></li>
+                <li class="sidebar-button"><button type="button"  aria-label="change slide"></button></li>
+                <li class="sidebar-button"><button type="button"  aria-label="change slide"></button></li>
             </ul>
             <h2 class="hero-title heading">The ooh noo<br>
                 collection</h2>
@@ -81,8 +81,8 @@
             </ul>
         </section>
         <div class="category-control">
-            <button type="button" class="category-control-button"></button>
-            <button type="button" class="category-control-button"></button>
+            <button type="button" class="category-control-button" aria-label="scroll category left"></button>
+            <button type="button" class="category-control-button" aria-label="scroll category right"></button>
             <p class="category-control-txt txt">Modern finds for the modern home. Curated goods by unique designers<br>
                 around the world from fashion to furniture for kids and adults.</p>
         </div>
@@ -107,23 +107,23 @@
             <h2 class="partners-title visually-hidden heading">Partners</h2>
             <ul class="partners-list">
                 <li class="partner-item">
-                    <a href="#" class="partner-item-link">
-                        <img src="/image/partners/mail.png" alt="Partner" class="awards-item-img">
+                    <a href="#" class="partner-item-link" aria-label="Go to Mail.ru">
+                        <img src="/image/partners/mail.png" alt="Partner" class="partner-item-img">
                     </a>
                 </li>
                 <li class="partner-item">
-                    <a href="#" class="partner-item-link">
-                        <img src="/image/partners/apple.png" alt="Partner" class="awards-item-img">
+                    <a href="#" class="partner-item-link" aria-label="Go to Apple">
+                        <img src="/image/partners/apple.png" alt="Partner" class="partner-item-img">
                     </a>
                 </li>
                 <li class="partner-item">
-                    <a href="#" class="partner-item-link">
-                        <img src="/image/partners/eltex.png" alt="Partner" class="awards-item-img">
+                    <a href="#" class="partner-item-link" aria-label="Go to Eltex">
+                        <img src="/image/partners/eltex.png" alt="Partner" class="partner-item-img">
                     </a>
                 </li>
                 <li class="partner-item">
-                    <a href="#" class="partner-item-link">
-                        <img src="/image/partners/owox.png" alt="Partner" class="awards-item-img">
+                    <a href="#" class="partner-item-link" aria-label="Go to Owox">
+                        <img src="/image/partners/owox.png" alt="Partner" class="partner-item-img">
                     </a>
                 </li>
             </ul>
@@ -194,7 +194,7 @@
             <p class="customer-information-title">Customer Information</p>
             <ul class="customer-list">
                 <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Contact Us</a>
+                    <a href="contact.html" class="customer-information-item-link">Contact Us</a>
                 </li>
                 <li class="customer-information-item">
                     <a href="#" class="customer-information-item-link">Sale Exclusions</a>
@@ -219,27 +219,28 @@
         <div class="connect">
             <p class="connect-title">Connect</p>
             <div class="connect-container">
-                <input type="email" placeholder="email" class="connect-input-email">
+                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email">
+                <label for="connect-email-input" class="visually-hidden">Email</label>
                 <button type="button" class="connect-button button-style">Join</button>
             </div>
             <ul class="social-items">
                 <li class="social-item">
-                    <a href="#" class="social-item-facebook">
+                    <a href="#" class="social-item-facebook" aria-label="Follow Us on Facebook">
                         <img src="/image/footer/Facebook.svg" alt="facebook" class="facebook-img">
                     </a>
                 </li>
                 <li class="social-item">
-                    <a href="#" class="social-item-twitter">
+                    <a href="#" class="social-item-twitter" aria-label="Follow Us on Twitter">
                         <img src="/image/footer/Twitter.svg" alt="twitter" class="twitter-img">
                     </a>
                 </li>
                 <li class="social-item">
-                    <a href="#" class="social-item-pinterest">
+                    <a href="#" class="social-item-pinterest" aria-label="Follow Us on Pinterest">
                         <img src="/image/footer/Pinterest.svg" alt="pinterest" class="pinterest-img">
                     </a>
                 </li>
                 <li class="social-item">
-                    <a href="#" class="social-item-instagram">
+                    <a href="#" class="social-item-instagram" aria-label="Follow Us on Instagram">
                         <img src="/image/footer/Instagram.svg" alt="instagram" class="instagram-img">
                     </a>
                 </li>
@@ -249,7 +250,36 @@
             </div>
         </div>
     </footer>
-
+    <div class="modal">
+        <form action="https://echo.htmlacademy.ru" method="POST">
+            <h2 class="visually-hidden heading">Contact Us</h2>
+            <div class="form-name-phone">
+                <div class="form-name">
+                    <input id="name-input" type="text" placeholder="Ivan Ivanov" required>
+                    <label for="name-input">Name</label>
+                </div>
+                <div class="form-phone">
+                    <input id="phone-input" type="text" placeholder="+7(927)123-45-67" required>
+                    <label for="phone-input">Phone</label>
+                </div>
+            </div>
+            <div class="form-email">
+                <input id="email-input" type="email" placeholder="example@example.com" required>
+                <label for="email-input">Email</label>
+            </div>
+            <div class="agree">
+                <input id="agree-input" type="checkbox" class="input" value="agree" required>
+                <label for="agree-input">By clicking on the button, you consent to the
+                     processing of your personal data</label>
+            </div>
+            <textarea id="textatea-input" name="Message" cols="30" rows="10"></textarea>
+            <label for="textatea-input" aria-label="message"></label>
+            <button type="submit" class="form-button button-style">submit</button>
+        </form>
+        <button class="close-button" aria-label="Close">
+            <img src="/image/modal/modal-close-button.svg" alt="close">
+        </button>
+    </div>
 </body>
 
 </html>
