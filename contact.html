@@ -50,27 +50,27 @@
         </section>
         <form action="https://echo.htmlacademy.ru" method="POST" class="contact-form">
             <h2 class="visually-hidden heading">Contact Us</h2>
-            <div class="form-name-phone">
-                <div class="form-name">
-                    <input id="name-input" type="text" placeholder="Ivan Ivanov" required>
-                    <label for="name-input">Name</label>
-                </div>
+            <div class="form-name">
+                <label for="name-input">Name</label>
+                <input id="name-input" type="text" placeholder="Ivan Ivanov" required>
+            </div>
+            <div class="form-phone-email">
                 <div class="form-phone">
-                    <input id="phone-input" type="text" placeholder="+7(927)123-45-67" required>
                     <label for="phone-input">Phone</label>
+                    <input id="phone-input" type="text" required>
+                </div>
+                <div class="form-email">
+                    <label for="email-input">Email</label>
+                    <input id="email-input" type="email" required>
                 </div>
             </div>
-            <div class="form-email">
-                <input id="email-input" type="email" placeholder="example@example.com" required>
-                <label for="email-input">Email</label>
-            </div>
+            <label for="textatea-input">Message</label>
+            <textarea id="textatea-input" name="Message" cols="30" rows="10"></textarea>
             <div class="agree">
                 <input id="agree-input" type="checkbox" class="input" value="agree" required>
                 <label for="agree-input">By clicking on the button, you consent to the
-                     processing of your personal data</label>
+                    processing of your personal data</label>
             </div>
-            <textarea id="textatea-input" name="Message" cols="30" rows="10"></textarea>
-            <label for="textatea-input" aria-label="message"></label>
             <button type="submit" class="form-button button-style">submit</button>
         </form>
         <div class="form-information">
