@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
                     <a href="#">Blog</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">Catalog</a>
+                    <a href="/catalog.html">Catalog</a>
                 </li>
                 <li class="menu-item">
                     <a href="#">About Us</a>
@@ -33,71 +33,53 @@
         <a href="/contact.html" class="contact-button">Contact us</a>
     </header>
     <main class="main">
-        <section class="category">
-            <h1 class="category-title heading">Category products</h1>
+        <section class="contact">
+            <h1 class="contact-title heading">Contact us</h1>
             <ul class="breadcrumbs">
                 <li class="breadcrumbs__item">
-                    <a href="index.html" >Home</a>
+                    <a href="index.html">Home</a>
                 </li>
-                <li class="breadcrumbs__item"> <!-- Эту стрелочку нужно сделать в CSS -->
+                <li class="breadcrumbs__item">
+                    <!-- Эту стрелочку нужно сделать в CSS -->
                     <img src="/image/category/arrow.svg" alt="Arrow">
                 </li>
                 <li class="breadcrumbs__item">
-                    <p class="breadcrumbs-txt">Catalog</p>
-                </li>
-            </ul>
-            <ul class="catalog-items">
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Apparel<br>
-                            kids</h3>
-                        <img src="/image/category/apparel.png" alt="image" class="catalog-item-img">
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Holiday<br>
-                            shop</h3>
-                        <img src="/image/category/holiday.png" alt="image" class="catalog-item-img">
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Toys</h3>
-                        <img src="/image/category/toys.png" alt="image" class="catalog-item-img">
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Accessories</h3>
-                        <img src="/image/category/accessories.png" alt="image" class="catalog-item-img">
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Sale</h3>
-                        <img src="/image/category/sale.png" alt="image" class="catalog-item-img">
-                    </a>
-                </li>
-                <li class="catalog-item">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Apparel<br>
-                            adults</h3>
-                        <img src="/image/category/adults.png" alt="image" class="catalog-item-img">
-                    </a>
+                    <p class="breadcrumbs-txt">Contact Us</p>
                 </li>
             </ul>
         </section>
-        <section class="description">
-            <h2 class="description-title heading">Product Description</h2>
-            <p class="description-txt txt">Interactive doll Zapf Creation Baby Born Sister can drink
-                 from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
-            <p class="description-txt txt">A toy with a height of 43 cm bends its knees, the head rotates,
-                 it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
-            <p class="description-txt txt">The set includes a miniature set of fashionable clothes,
-                 a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair,
-                  as well as two bracelets: one for the doll, the other for her young mistress.</p>
-        </section>
+        <form action="https://echo.htmlacademy.ru" method="POST" class="contact-form">
+            <h2 class="visually-hidden heading">Contact Us</h2>
+            <div class="form-name">
+                <label for="name-input">Name</label>
+                <input id="name-input" type="text" placeholder="Ivan Ivanov" required>
+            </div>
+            <div class="form-phone-email">
+                <div class="form-phone">
+                    <label for="phone-input">Phone</label>
+                    <input id="phone-input" type="text" required>
+                </div>
+                <div class="form-email">
+                    <label for="email-input">Email</label>
+                    <input id="email-input" type="email" required>
+                </div>
+            </div>
+            <label for="textatea-input">Message</label>
+            <textarea id="textatea-input" name="Message" cols="30" rows="10"></textarea>
+            <div class="agree">
+                <input id="agree-input" type="checkbox" class="input" value="agree" required>
+                <label for="agree-input">By clicking on the button, you consent to the
+                    processing of your personal data</label>
+            </div>
+            <button type="submit" class="form-button button-style">submit</button>
+        </form>
+        <div class="form-information">
+            <p class="contact-txt txt">Our support team are on-hand to assist with
+                any issues you are experiencing.</p>
+            <p class="contact-txt txt">Please use the form to contact us with your
+                needs. Send us a message and we'll respond as soon as possible.</p>
+            <p class="contact-paragraph">An expert is waiting to help you!</p>
+        </div>
     </main>
     <footer class="footer txt">
         <div class="navigation">
