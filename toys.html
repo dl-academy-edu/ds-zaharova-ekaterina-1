@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toys</title>
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="toys.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="header-logo" aria-label="Go to main">
+            <img src="/image/header/header-logo.svg" alt="Logo" class="header-logo-img">
+        </a>
+        <nav class="menu-nav">
+            <ul class="menu-items">
+                <li class="menu-item">
+                    <a href="blog.html" aria-label="go to blog">Blog</a>
+                </li>
+                <li class="menu-item">
+                    <a href="catalog.html" aria-label="go to catalog">Catalog</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#">About Us</a>
+                </li>
+            </ul>
+        </nav>
+        <button type="button" class="search-button" aria-label="search on DLK">
+            <img src="/image/header/search-button.svg" alt="search">
+        </button>
+        <a href="/contact.html" class="contact-button" aria-label="go to contact us">Contact us</a>
+    </header>
+    <main class="toys-main">
+        <section class="hero-toys">
+            <h1 class="toys-title">
+                Toy for kids
+            </h1>
+            <ul class="toys-breadcrumbs">
+                <li class="toys-breadcrumbs__item">
+                    <a href="index.html" aria-label="Go to main">Home</a>
+                </li>
+                <li class="toys-breadcrumbs__item">
+                    <!-- Эту стрелочку нужно сделать в CSS -->
+                    <img src="/image/category/arrow.svg" alt="Arrow">
+                </li>
+                <li class="toys-breadcrumbs__item">
+                    <a href="/catalog.html" aria-label="Go to catalog">Catalog</a>
+                </li>
+                <li class="toys-breadcrumbs__item">
+                    <!-- Эту стрелочку нужно сделать в CSS -->
+                    <img src="/image/category/arrow.svg" alt="Arrow">
+                </li>
+                <li class="toys-breadcrumbs__item">Toys
+                </li>
+                </ul>
+        </section>
+        <form action="https://echo.htmlacademy.ru" method="POST" class="toys-form" aria-label="change the filter value" tabindex="0">
+            <div class="form-cost">
+                <h3 class="form-cost-title">Cost</h3>
+                <div class="form-cost-list">
+                    <div class="form-cost-item">
+                        <img src="/image/toys/cost/Rectangle1.svg" alt="cost">
+                    </div>
+                    <div class="form-cost-item">
+                        <img src="/image/toys/cost/Ellipse1.svg" alt="cost">
+                    </div>
+                    <div class="form-cost-item">
+                        <img src="/image/toys/cost/Ellipse3.svg" alt="cost">
+                    </div>
+                    <div class="form-cost-item">
+                        <img src="/image/toys/cost/Rectangle2.svg" alt="cost">
+                    </div>
+                </div>
+                <p class="form-cost-value-min">0</p>
+                <p class="form-cost-value-max">500</p>
+            </div>
+            <div class="form-color">
+                <h3 class="form-color-title">Color</h3>
+                <ul class="form-color-list">
+                    <li class="form-color-item">
+                        <input id="form-color-black-input" type="checkbox" checked class="form-color-item-input">
+                        <label for="form-color-black-input" class="form-color-item-label">Black</label>
+                    </li>
+                    <li class="form-color-item">
+                        <input id="form-color-blue-input" type="checkbox" class="form-color-item-input">
+                        <label for="form-color-blue-input" class="form-color-item-label">Blue</label>
+                    </li>
+                    <li class="form-color-item">
+                        <input id="form-color-green-input" type="checkbox" class="form-color-item-input">
+                        <label for="form-color-green-input" class="form-color-item-label">Green</label>
+                    </li>
+                    <li class="form-color-item">
+                        <input id="form-color-white-input" type="checkbox" class="form-color-item-input">
+                        <label for="form-color-white-input" class="form-color-item-label">White</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-delivery">
+                <h3 class="form-delivery-title">Delivery</h3>
+                <ul class="form-delivery-list">
+                    <li class="form-delivery-item">
+                        <input id="form-free-delivery-input" type="radio" value="Free shipping" name="delivery"
+                            class="form-delivery-item-input">
+                        <label for="form-free-delivery-input" class="form-delivery-item-label">Free shipping</label>
+                    </li>
+                    <li class="form-delivery-item">
+                        <input id="form-fast-delivery-input" type="radio" value="Fast shipping" name="delivery"
+                            class="form-delivery-item-input" checked>
+                        <label for="form-fast-delivery-input" class="form-delivery-item-label">Fast shipping</label>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-amount">
+                <h3 class="form-amount-title">Amount</h3>
+                <ul class="form-amount-list">
+                    <li class="form-amount-item">
+                        <button type="button" class="form-amount-btn" aria-label="select">0-5</button>
+                    </li>
+                    <li>
+                        <button type="button" class="form-amount-btn" aria-label="select">10-20</button>
+                    </li>
+                    <li>
+                        <button type="button" class="form-amount-btn" aria-label="select">20-50</button>
+                    </li>
+                </ul>
+            </div>
+            <button type="submit" class="toys-form-button button-style">Apply</button>
+        </form>
+        <section class="toys-catalog">
+            <ul class="toys-catalog-list">
+                <li class="toys-catalog-item">
+                    <a href="#">
+                        <img src="/image/toys/toys1.png" alt="image" class="toys-catalog-img">
+                        <h2 class="toys-catalog-item-title">SHARKY BEAN BAG CHAIR COVER</h2>
+                        <p class="toys-catalog-item-price">$60.00 USD</p>
+                    </a>
+                </li>
+                <li class="toys-catalog-item">
+                    <a href="#">
+                        <img src="/image/toys/toys2.png" alt="image" class="toys-catalog-img">
+                        <h2 class="toys-catalog-item-title">BRASS DECO FRAMES</h2>
+                        <p class="toys-catalog-item-price">$66.00 USD</p>
+                    </a>
+                </li>
+                <li class="toys-catalog-item">
+                    <a href="#">
+                        <img src="/image/toys/toys3.png" alt="image" class="toys-catalog-img">
+                        <h2 class="toys-catalog-item-title">CIBO FULL APRON</h2>
+                        <p class="toys-catalog-item-price">$60.00 USD</p>
+                    </a>
+                </li>
+                <li class="toys-catalog-item">
+                    <a href="#">
+                        <img src="/image/toys/toys4.png" alt="image" class="toys-catalog-img">
+                        <h2 class="toys-catalog-item-title">GATCHA GATCHA GUMBALL MACHINE</h2>
+                        <p class="toys-catalog-item-price">$56.00 USD</p>
+                    </a>
+                </li>
+                <li class="toys-catalog-item">
+                    <a href="#">
+                        <img src="/image/toys/toys5.png" alt="image" class="toys-catalog-img">
+                        <h2 class="toys-catalog-item-title">CHRISTMAS ADVENT SCENTED CANDLE</h2>
+                        <p class="toys-catalog-item-price">$29.00 USD</p>
+                    </a>
+                </li>
+                <li class="toys-catalog-item">
+                    <a href="#">
+                        <img src="/image/toys/toys6.png" alt="image" class="toys-catalog-img">
+                        <h2 class="toys-catalog-item-title">TANGLE SPINNING TEA LIGHT</h2>
+                        <p class="toys-catalog-item-price">$56.00 USD</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="wrapper-toys-catalog-control">
+            <button type="button" class="toys-catalog-cntrl-btn-left" aria-label="scroll-left"></button>
+            <ul class="toys-catalog-control-list">
+                <li class="toys-catalog-control-item">
+                    <a href="#" aria-label="page 1">1</a>
+                </li>
+                <li class="toys-catalog-control-item">
+                    <a href="#" aria-label="page 2">2</a>
+                </li>
+                <li class="toys-catalog-control-item">
+                    <a href="#" aria-label="page 3">3</a>
+                </li>
+                <li class="toys-catalog-control-item">
+                    <a href="#" aria-label="page 4">4</a>
+                </li>
+            </ul>
+            <button type="button" class="toys-catalog-cntrl-btn-right" aria-label="scroll-right"></button>
+        </div>
+    </main>
+    <footer class="footer txt">
+        <div class="navigation">
+            <p class="navigation-title">Navigation</p>
+            <ul class="navigation-items">
+                <li class="navigation-item">
+                    <a href="#" class="navigation-item-link">About Us</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="blog.html" class="navigation-item-link" aria-label="go to blog">Blog</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-item-link">Design Services</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-item-link">Featured On</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-item-link">2018 Holiday Catalog</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-item-link">Shop By Designer</a>
+                </li>
+            </ul>
+            <div class="rating">
+                <p class="rating-title">Company Rating</p>
+                <ul class="rating-items">
+                    <li class="rating-item">
+                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    </li>
+                    <li class="rating-item">
+                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    </li>
+                    <li class="rating-item">
+                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    </li>
+                    <li class="rating-item">
+                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    </li>
+                    <li class="rating-item">
+                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="customer-information">
+            <p class="customer-information-title">Customer Information</p>
+            <ul class="customer-list">
+                <li class="customer-information-item">
+                    <a href="contact.html" class="customer-information-item-link" aria-label="go to contact us">Contact Us</a>
+                </li>
+                <li class="customer-information-item">
+                    <a href="#" class="customer-information-item-link">Sale Exclusions</a>
+                </li>
+                <li class="customer-information-item">
+                    <a href="#" class="customer-information-item-link">Shipping & Returns</a>
+                </li>
+                <li class="customer-information-item">
+                    <a href="#" class="customer-information-item-link">Terms & Conditions</a>
+                </li>
+                <li class="customer-information-item">
+                    <a href="#" class="customer-information-item-link">Privacy Policy</a>
+                </li>
+                <li class="customer-information-item">
+                    <a href="#" class="customer-information-item-link">Search</a>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p class="copyright-txt">Copyright © 2018 Dlk • Design Life Kids</p>
+            </div>
+        </div>
+        <div class="connect">
+            <p class="connect-title">Connect</p>
+            <div class="connect-container">
+                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email">
+                <label for="connect-email-input" class="visually-hidden">Email</label>
+                <button type="button" class="connect-button button-style">Join</button>
+            </div>
+            <ul class="social-items">
+                <li class="social-item">
+                    <a href="#" class="social-item-facebook" aria-label="Follow Us on Facebook">
+                        <img src="/image/footer/Facebook.svg" alt="facebook" class="facebook-img">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-item-twitter" aria-label="Follow Us on Twitter">
+                        <img src="/image/footer/Twitter.svg" alt="twitter" class="twitter-img">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-item-pinterest" aria-label="Follow Us on Pinterest">
+                        <img src="/image/footer/Pinterest.svg" alt="pinterest" class="pinterest-img">
+                    </a>
+                </li>
+                <li class="social-item">
+                    <a href="#" class="social-item-instagram" aria-label="Follow Us on Instagram">
+                        <img src="/image/footer/Instagram.svg" alt="instagram" class="instagram-img">
+                    </a>
+                </li>
+            </ul>
+            <div class="web-design">
+                <p class="web-design-txt">Web Design — Direct Line Development</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
