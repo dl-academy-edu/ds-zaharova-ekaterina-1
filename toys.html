@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toys</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="toys.css">
 </head>
@@ -34,7 +37,7 @@
     </header>
     <main class="toys-main">
         <section class="hero-toys">
-            <h1 class="toys-title">
+            <h1 class="toys-title heading">
                 Toy for kids
             </h1>
             <ul class="toys-breadcrumbs">
@@ -54,7 +57,7 @@
                 </li>
                 <li class="toys-breadcrumbs__item">Toys
                 </li>
-                </ul>
+            </ul>
         </section>
         <form action="https://echo.htmlacademy.ru" method="POST" class="toys-form" aria-label="change the filter value" tabindex="0">
             <div class="form-cost">
@@ -101,13 +104,11 @@
                 <h3 class="form-delivery-title">Delivery</h3>
                 <ul class="form-delivery-list">
                     <li class="form-delivery-item">
-                        <input id="form-free-delivery-input" type="radio" value="Free shipping" name="delivery"
-                            class="form-delivery-item-input">
+                        <input id="form-free-delivery-input" type="radio" value="Free shipping" name="delivery" class="form-delivery-item-input">
                         <label for="form-free-delivery-input" class="form-delivery-item-label">Free shipping</label>
                     </li>
                     <li class="form-delivery-item">
-                        <input id="form-fast-delivery-input" type="radio" value="Fast shipping" name="delivery"
-                            class="form-delivery-item-input" checked>
+                        <input id="form-fast-delivery-input" type="radio" value="Fast shipping" name="delivery" class="form-delivery-item-input" checked>
                         <label for="form-fast-delivery-input" class="form-delivery-item-label">Fast shipping</label>
                     </li>
                 </ul>
@@ -193,15 +194,15 @@
             <button type="button" class="toys-catalog-cntrl-btn-right" aria-label="scroll-right"></button>
         </div>
     </main>
-    <footer class="footer txt">
+    <footer class="footer">
         <div class="navigation">
-            <p class="navigation-title">Navigation</p>
-            <ul class="navigation-items">
+            <p class="navigation-title footer-title">Navigation</p>
+            <ul class="navigation-items footer-items">
                 <li class="navigation-item">
                     <a href="#" class="navigation-item-link">About Us</a>
                 </li>
                 <li class="navigation-item">
-                    <a href="blog.html" class="navigation-item-link" aria-label="go to blog">Blog</a>
+                    <a href="blog.html" class="navigation-item-link">Blog</a>
                 </li>
                 <li class="navigation-item">
                     <a href="#" class="navigation-item-link">Design Services</a>
@@ -217,8 +218,8 @@
                 </li>
             </ul>
             <div class="rating">
-                <p class="rating-title">Company Rating</p>
-                <ul class="rating-items">
+                <p class="rating-title footer-items">Company Rating</p>
+                <ul class="rating-items footer-items">
                     <li class="rating-item">
                         <img src="/image/footer/Star.svg" alt="star" class="star-img">
                     </li>
@@ -237,36 +238,36 @@
                 </ul>
             </div>
         </div>
-        <div class="customer-information">
-            <p class="customer-information-title">Customer Information</p>
-            <ul class="customer-list">
-                <li class="customer-information-item">
-                    <a href="contact.html" class="customer-information-item-link" aria-label="go to contact us">Contact Us</a>
+        <div class="customer-info">
+            <p class="customer-info-title footer-title">Customer Information</p>
+            <ul class="customer-info-list footer-items">
+                <li class="customer-info-item">
+                    <a href="contact.html" class="customer-info-item-link">Contact Us</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Sale Exclusions</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Sale Exclusions</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Shipping & Returns</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Shipping & Returns</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Terms & Conditions</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Terms & Conditions</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Privacy Policy</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Privacy Policy</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Search</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Search</a>
                 </li>
             </ul>
             <div class="copyright">
-                <p class="copyright-txt">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p class="copyright-txt footer-items">Copyright © 2018 Dlk • Design Life Kids</p>
             </div>
         </div>
         <div class="connect">
-            <p class="connect-title">Connect</p>
+            <p class="connect-title footer-title">Connect</p>
             <div class="connect-container">
-                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email">
+                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email footer-input-email">
                 <label for="connect-email-input" class="visually-hidden">Email</label>
                 <button type="button" class="connect-button button-style">Join</button>
             </div>
@@ -293,7 +294,7 @@
                 </li>
             </ul>
             <div class="web-design">
-                <p class="web-design-txt">Web Design — Direct Line Development</p>
+                <p class="web-design-txt footer-design">Web Design — Direct Line Development</p>
             </div>
         </div>
     </footer>

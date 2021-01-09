@@ -5,30 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First project</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="common.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
 <body>
     <header class="header">
-        <img src="/image/header/header-logo.svg" alt="Logo" class="header-logo-img">
+        <img src="/image/header/header-logo.svg" alt="Logo" class="header-logo-img header-logo-main">
         <span class="header-logo visually-hidden">Go to main page</span>
         <nav class="menu-nav">
             <ul class="menu-items">
                 <li class="menu-item">
-                    <a href="blog.html">Blog</a>
+                    <a href="blog.html" class="menu-item-link">Blog</a>
                 </li>
                 <li class="menu-item">
-                    <a href="catalog.html">Catalog</a>
+                    <a href="catalog.html" class="menu-item-link">Catalog</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">About Us</a>
+                    <a href="#" class="menu-item-link">About Us</a>
                 </li>
             </ul>
         </nav>
-        <button type="button" class="search-button" aria-label="search on DLK">
-            <img src="/image/header/search-button.svg" alt="search">
+        <button type="button" class="search-btn" aria-label="search on DLK">
+            <img src="/image/header/search-button.svg" alt="search" class="search-btn-img">
         </button>
         <a href="/contact.html" class="contact-button">Contact us</a>
     </header>
@@ -37,247 +40,245 @@
         <section class="hero-main">
             <img src="image/hero/hero-image.png" alt="Monster" class="hero-img">
             <span class="sidebar-number">01</span>
-            <ul class="sidebar">
-                <li class="sidebar-button"><button type="button" aria-label="change slide"></button></li>
-                <li class="sidebar-button"><button type="button" aria-label="change slide"></button></li>
-                <li class="sidebar-button"><button type="button" aria-label="change slide"></button></li>
-                <li class="sidebar-button"><button type="button" aria-label="change slide"></button></li>
-            </ul>
-            <h2 class="hero-title heading">The ooh noo<br>
-                collection</h2>
-            <p>Designed in Slovenia</p>
-            <button type="button" class="hero-button button-style">Explore now</button>
-            <p class="hero-footer">Free (continental) USA shipping on all orders of $100 USD or more!</p>
-        </section>
-        <section class="category">
-            <h2 class="category-title">Category products</h2>
-            <ul class="category-items">
-                <li class="category-item">
-                    <a href="#" class="category-item-link">
-                        <h3 class="category-item-title">Apparel<br>
-                            kids</h3>
-                        <img src="/image/category/apparel.png" alt="image" class="category-item-img">
-                    </a>
+            <ul class="sidebar-items">
+                <li class="sidebar-item">
+                    <button type="button " class="sidebar-button sidebar-one" aria-label=" change slide "></button>
                 </li>
-                <li class="category-item">
-                    <a href="#" class="category-item-link">
-                        <h3 class="category-item-title">Holiday<br>
-                            shop</h3>
-                        <img src="/image/category/holiday.png" alt="image" class="category-item-img">
-                    </a>
+                <li class="sidebar-item">
+                    <button type="button " class="sidebar-button" aria-label=" change slide "></button>
                 </li>
-                <li class="category-item">
-                    <a href="toys.html" class="category-item-link">
-                        <h3 class="category-item-title">Toys</h3>
-                        <img src="/image/category/toys.png" alt="image" class="category-item-img">
-                    </a>
+                <li class="sidebar-item">
+                    <button type="button " class="sidebar-button" aria-label=" change slide "></button>
                 </li>
-                <li class="category-item">
-                    <a href="#" class="category-item-link">
-                        <h3 class="category-title">Accessories</h3>
-                        <img src="/image/category/accessories.png" alt="image" class="category-item-img">
-                    </a>
+                <li class="sidebar-item">
+                    <button type="button " class="sidebar-button" aria-label=" change slide "></button>
                 </li>
             </ul>
+            <h2 class="hero-title ">The ooh noo<br> collection
+            </h2>
+            <p class="hero-text ">Designed in Slovenia</p>
+            <button type="button " class="hero-button button-style ">Explore now</button>
+            <p class="hero-footer ">Free (continental) USA shipping on all orders of $100 USD or more!</p>
         </section>
-        <div class="category-control">
-            <button type="button" class="category-control-button" aria-label="scroll category left"></button>
-            <button type="button" class="category-control-button" aria-label="scroll category right"></button>
-            <p class="category-control-txt txt">Modern finds for the modern home. Curated goods by unique designers<br>
-                around the world from fashion to furniture for kids and adults.</p>
+        <section class="category ">
+            <h2 class="category-title sub-heading ">Category products</h2>
+            <ul class="category-items catalog-txt-style ">
+                <li class="category-item ">
+                    <a href="# " class="category-item-link ">
+                        <h3 class="category-item-title ">Apparel<br> kids
+                        </h3>
+                        <img src="/image/category/apparel.png " alt="image " class="category-item-img ">
+                    </a>
+                </li>
+                <li class="category-item ">
+                    <a href="# " class="category-item-link ">
+                        <h3 class="category-item-title ">Holiday<br> shop
+                        </h3>
+                        <img src="/image/category/holiday.png " alt="image " class="category-item-img ">
+                    </a>
+                </li>
+                <li class="category-item ">
+                    <a href="toys.html " class="category-item-link ">
+                        <h3 class="category-item-title ">Toys</h3>
+                        <img src="/image/category/toys.png " alt="image " class="category-item-img ">
+                    </a>
+                </li>
+                <li class="category-item ">
+                    <a href="# " class="category-item-link ">
+                        <h3 class="category-item-title ">Accessories</h3>
+                        <img src="/image/category/accessories.png " alt="image " class="category-item-img ">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <div class="category-control ">
+            <button type="button " class="category-cntrl-btn-left " aria-label="scroll category left "></button>
+            <button type="button " class="category-cntrl-btn-right " aria-label="scroll category right "></button>
+            <p class="category-cntrl-txt txt ">Modern finds for the modern home. Curated goods by unique designers<br> around the world from fashion to furniture for kids and adults.</p>
         </div>
-        <section class="dilevery">
-            <img src="/image/delivery/girl-img.png" alt="Girl in dress" class="dilevery-img">
-            <h2 class="delivery-title heading">Delivery</h2>
-            <ul class="delevery-items">
-                <li class="delivery-item"><button type="button">Delivery</button></li>
-                <li class="delivery-item"><button type="button">Guarantee</button></li>
-                <li class="delivery-item"><button type="button">Credit</button></li>
+        <section class="delivery ">
+            <img src="/image/delivery/girl-img.png " alt="Girl in dress " class="dilevery-img ">
+            <h2 class="delivery-title sub-heading ">Delivery</h2>
+            <ul class="delivery-items ">
+                <li class="delivery-item "><button type="button " class="delivery-item-btn ">Delivery</button></li>
+                <li class="delivery-item "><button type="button " class="delivery-item-btn ">Guarantee</button></li>
+                <li class="delivery-item "><button type="button " class="delivery-item-btn ">Credit</button></li>
             </ul>
-            <p class="delivery-txt txt">Some days i feel like i've been working on dlk my entire life
-                and there are other days that i am completely shocked that
-                four years have flown by. It's simply magical.</p>
-            <p class="delivery-txt txt">What started as an outlet to deal with the traumatic loss of my husband, dlk has
-                now
-                become a truly happy place for me and i have you and all of the beautiful designers
-                that we work with to thank!</p>
-            <a href="#" class="delivery-button button-style">Learn more</a>
+            <p class="delivery-txt txt ">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+            <p class="delivery-txt txt ">What started as an outlet to deal with the traumatic loss of my husband, dlk has now become a truly happy place for me and i have you and all of the beautiful designers that we work with to thank!</p>
+            <a href="# " class="delivery-button button-style ">Learn more</a>
         </section>
-        <section class="partners">
-            <h2 class="partners-title visually-hidden heading">Partners</h2>
-            <ul class="partners-list">
-                <li class="partner-item">
-                    <a href="#" class="partner-item-link" aria-label="Go to Mail.ru">
-                        <img src="/image/partners/mail.png" alt="Partner" class="partner-item-img">
+        <section class="partners ">
+            <h2 class="partners-title visually-hidden sub-heading ">Partners</h2>
+            <ul class="partners-list ">
+                <li class="partner-item ">
+                    <a href="# " class="partner-item-link " aria-label="Go to Mail.ru ">
+                        <img src="/image/partners/mail.png " alt="Partner " class="partner-item-img ">
                     </a>
                 </li>
-                <li class="partner-item">
-                    <a href="#" class="partner-item-link" aria-label="Go to Apple">
-                        <img src="/image/partners/apple.png" alt="Partner" class="partner-item-img">
+                <li class="partner-item ">
+                    <a href="# " class="partner-item-link " aria-label="Go to Apple ">
+                        <img src="/image/partners/apple.png " alt="Partner " class="partner-item-img ">
                     </a>
                 </li>
-                <li class="partner-item">
-                    <a href="#" class="partner-item-link" aria-label="Go to Eltex">
-                        <img src="/image/partners/eltex.png" alt="Partner" class="partner-item-img">
+                <li class="partner-item ">
+                    <a href="# " class="partner-item-link " aria-label="Go to Eltex ">
+                        <img src="/image/partners/eltex.png " alt="Partner " class="partner-item-img ">
                     </a>
                 </li>
-                <li class="partner-item">
-                    <a href="#" class="partner-item-link" aria-label="Go to Owox">
-                        <img src="/image/partners/owox.png" alt="Partner" class="partner-item-img">
+                <li class="partner-item ">
+                    <a href="# " class="partner-item-link " aria-label="Go to Owox ">
+                        <img src="/image/partners/owox.png " alt="Partner " class="partner-item-img ">
                     </a>
                 </li>
             </ul>
         </section>
-        <section class="aside">
-            <div class="buy">
-                <h2 class="buy-title heading">Design Life Kids</h2>
-                <h4 class="buy-subtitle">About Us</h4>
-                <p class="buy-txt txt">Some days i feel like i've been working on dlk my
-                    entire life and there are other days that i am completely
-                    shocked that four years have flown by. It's simply magical.</p>
-                <a href="#" class="buy-button button-style">BUY NOW</a>
+        <section class="aside ">
+            <div class="buy ">
+                <h2 class="buy-title sub-heading ">Design Life Kids</h2>
+                <h4 class="buy-subtitle ">About Us</h4>
+                <p class="buy-txt txt ">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <a href="# " class="buy-button button-style ">BUY NOW</a>
             </div>
-            <div class="contacts">
-                <h2 class="contacts-title heading">Contacts</h2>
-                <p class="contacts-txt txt">Some days i feel like i've been working on dlk
-                    my entire life and there are other days that i am completely shocked
-                    that four years have flown by. It's simply magical.</p>
-                <img src="/image/aside/contacts-img.png" alt="Map" class="contacts-img">
+            <div class="contacts ">
+                <h2 class="contacts-title sub-heading ">Contacts</h2>
+                <p class="contacts-txt txt ">Some days i feel like i've been working on dlk my entire life and there are other days that i am completely shocked that four years have flown by. It's simply magical.</p>
+                <img src="/image/aside/contacts-img.png " alt="Map " class="contacts-img ">
             </div>
         </section>
     </main>
-    <footer class="footer txt">
-        <div class="navigation">
-            <p class="navigation-title">Navigation</p>
+    <footer class="footer ">
+        <div class="navigation ">
+            <p class="navigation-title footer-title ">Navigation</p>
             <ul class="navigation-items">
-                <li class="navigation-item">
-                    <a href="#" class="navigation-item-link">About Us</a>
+                <li class="navigation-item ">
+                    <a href="# " class="navigation-item-link ">About Us</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="blog.html" class="navigation-item-link">Blog</a>
+                <li class="navigation-item ">
+                    <a href="blog.html " class="navigation-item-link ">Blog</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-item-link">Design Services</a>
+                <li class="navigation-item ">
+                    <a href="# " class="navigation-item-link ">Design Services</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-item-link">Featured On</a>
+                <li class="navigation-item ">
+                    <a href="# " class="navigation-item-link ">Featured On</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-item-link">2018 Holiday Catalog</a>
+                <li class="navigation-item ">
+                    <a href="# " class="navigation-item-link ">2018 Holiday Catalog</a>
                 </li>
-                <li class="navigation-item">
-                    <a href="#" class="navigation-item-link">Shop By Designer</a>
+                <li class="navigation-item ">
+                    <a href="# " class="navigation-item-link ">Shop By Designer</a>
                 </li>
             </ul>
-            <div class="rating">
-                <p class="rating-title">Company Rating</p>
+            <div class="rating ">
+                <p class="rating-title footer-items">Company Rating</p>
                 <ul class="rating-items">
-                    <li class="rating-item">
-                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    <li class="rating-item ">
+                        <img src="/image/footer/Star.svg " alt="star " class="star-img ">
                     </li>
-                    <li class="rating-item">
-                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    <li class="rating-item ">
+                        <img src="/image/footer/Star.svg " alt="star " class="star-img ">
                     </li>
-                    <li class="rating-item">
-                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    <li class="rating-item ">
+                        <img src="/image/footer/Star.svg " alt="star " class="star-img ">
                     </li>
-                    <li class="rating-item">
-                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    <li class="rating-item ">
+                        <img src="/image/footer/Star.svg " alt="star " class="star-img ">
                     </li>
-                    <li class="rating-item">
-                        <img src="/image/footer/Star.svg" alt="star" class="star-img">
+                    <li class="rating-item ">
+                        <img src="/image/footer/Star.svg " alt="star " class="star-img ">
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="customer-information">
-            <p class="customer-information-title">Customer Information</p>
-            <ul class="customer-list">
-                <li class="customer-information-item">
-                    <a href="contact.html" class="customer-information-item-link">Contact Us</a>
+        <div class="customer-info ">
+            <p class="customer-info-title footer-title ">Customer Information</p>
+            <ul class="customer-info-list">
+                <li class="customer-info-item ">
+                    <a href="contact.html " class="customer-info-item-link ">Contact Us</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Sale Exclusions</a>
+                <li class="customer-info-item ">
+                    <a href="# " class="customer-info-item-link ">Sale Exclusions</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Shipping & Returns</a>
+                <li class="customer-info-item ">
+                    <a href="# " class="customer-info-item-link ">Shipping & Returns</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Terms & Conditions</a>
+                <li class="customer-info-item ">
+                    <a href="# " class="customer-info-item-link ">Terms & Conditions</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Privacy Policy</a>
+                <li class="customer-info-item ">
+                    <a href="# " class="customer-info-item-link ">Privacy Policy</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Search</a>
+                <li class="customer-info-item ">
+                    <a href="# " class="customer-info-item-link ">Search</a>
                 </li>
             </ul>
-            <div class="copyright">
-                <p class="copyright-txt">Copyright © 2018 Dlk • Design Life Kids</p>
+            <div class="copyright ">
+                <p class="copyright-txt footer-items ">Copyright © 2018 Dlk • Design Life Kids</p>
             </div>
         </div>
-        <div class="connect">
-            <p class="connect-title">Connect</p>
-            <div class="connect-container">
-                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email">
-                <label for="connect-email-input" class="visually-hidden">Email</label>
-                <button type="button" class="connect-button button-style">Join</button>
+        <div class="connect ">
+            <p class="connect-title footer-title ">Connect</p>
+            <div class="connect-container ">
+                <input id="connect-email-input " type="email " placeholder="Email" class="connect-input-email">
+                <label for="connect-email-input " class="visually-hidden">Email</label>
+                <button type=" button " class="connect-button button-style ">Join</button>
             </div>
-            <ul class="social-items">
-                <li class="social-item">
-                    <a href="#" class="social-item-facebook" aria-label="Follow Us on Facebook">
-                        <img src="/image/footer/Facebook.svg" alt="facebook" class="facebook-img">
+            <ul class="social-items ">
+                <li class="social-item ">
+                    <a href="# " class="social-item-facebook " aria-label="Follow Us on Facebook ">
+                        <img src="/image/footer/Facebook.svg " alt="facebook " class="facebook-img ">
                     </a>
                 </li>
-                <li class="social-item">
-                    <a href="#" class="social-item-twitter" aria-label="Follow Us on Twitter">
-                        <img src="/image/footer/Twitter.svg" alt="twitter" class="twitter-img">
+                <li class="social-item ">
+                    <a href="# " class="social-item-twitter " aria-label="Follow Us on Twitter ">
+                        <img src="/image/footer/Twitter.svg " alt="twitter " class="twitter-img ">
                     </a>
                 </li>
-                <li class="social-item">
-                    <a href="#" class="social-item-pinterest" aria-label="Follow Us on Pinterest">
-                        <img src="/image/footer/Pinterest.svg" alt="pinterest" class="pinterest-img">
+                <li class="social-item ">
+                    <a href="# " class="social-item-pinterest " aria-label="Follow Us on Pinterest ">
+                        <img src="/image/footer/Pinterest.svg " alt="pinterest " class="pinterest-img ">
                     </a>
                 </li>
-                <li class="social-item">
-                    <a href="#" class="social-item-instagram" aria-label="Follow Us on Instagram">
-                        <img src="/image/footer/Instagram.svg" alt="instagram" class="instagram-img">
+                <li class="social-item ">
+                    <a href="# " class="social-item-instagram " aria-label="Follow Us on Instagram ">
+                        <img src="/image/footer/Instagram.svg " alt="instagram " class="instagram-img ">
                     </a>
                 </li>
             </ul>
             <div class="web-design">
-                <p class="web-design-txt">Web Design — Direct Line Development</p>
+                <a href="https://directline.digital/" class="footer-design">Web Design — Direct Line Development</a>
             </div>
         </div>
     </footer>
-    <div class="modal">
-        <form action="https://echo.htmlacademy.ru" method="POST">
-            <h2 class="visually-hidden heading">Contact Us</h2>
-            <div class="form-name">
-                <label for="name-input">Name</label>
-                <input id="name-input" type="text" placeholder="Ivan Ivanov" required>
+    <div class="modal ">
+        <form action="https://echo.htmlacademy.ru " method="POST ">
+            <h2 class="visually-hidden sub-heading ">Contact Us</h2>
+            <div class="form-name ">
+                <label for="name-input ">Name</label>
+                <input id="name-input " type="text " placeholder="Ivan Ivanov " required>
             </div>
-            <div class="form-phone-email">
-                <div class="form-phone">
-                    <label for="phone-input">Phone</label>
-                    <input id="phone-input" type="text" required>
+            <div class="form-phone-email ">
+                <div class="form-phone ">
+                    <label for="phone-input ">Phone</label>
+                    <input id="phone-input " type="text " required>
                 </div>
-                <div class="form-email">
-                    <label for="email-input">Email</label>
-                    <input id="email-input" type="email" required>
+                <div class="form-email ">
+                    <label for="email-input ">Email</label>
+                    <input id="email-input " type="email " required>
                 </div>
             </div>
-            <label for="textatea-input">Message</label>
-            <textarea id="textatea-input" name="Message" cols="30" rows="10"></textarea>
-            <div class="agree">
-                <input id="agree-input" type="checkbox" class="input" value="agree" required>
-                <label for="agree-input">By clicking on the button, you consent to the
+            <label for="textatea-input ">Message</label>
+            <textarea id="textatea-input " name="Message " cols="30 " rows="10 "></textarea>
+            <div class="agree ">
+                <input id="agree-input " type="checkbox " class="input " value="agree " required>
+                <label for="agree-input ">By clicking on the button, you consent to the
                     processing of your personal data</label>
             </div>
-            <button type="submit" class="form-button button-style">submit</button>
+            <button type="submit " class="form-button button-style ">submit</button>
         </form>
-        <button class="close-button" aria-label="Close">
-            <img src="/image/modal/modal-close-button.svg" alt="close">
+        <button class="close-button " aria-label="Close ">
+            <img src="/image/modal/modal-close-button.svg " alt="close ">
         </button>
     </div>
 </body>

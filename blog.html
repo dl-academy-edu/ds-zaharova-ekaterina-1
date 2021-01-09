@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,700&family=Montserrat:wght@700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="blog.css">
 </head>
@@ -17,24 +20,24 @@
         <nav class="menu-nav">
             <ul class="menu-items">
                 <li class="menu-item">
-                    <a href="blog.html" aria-label="go to blog">Blog</a>
+                    <a href="blog.html" class="menu-item-link">Blog</a>
                 </li>
                 <li class="menu-item">
-                    <a href="catalog.html" aria-label="go to catalog">Catalog</a>
+                    <a href="catalog.html" class="menu-item-link">Catalog</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#">About Us</a>
+                    <a href="#" class="menu-item-link">About Us</a>
                 </li>
             </ul>
         </nav>
         <button type="button" class="search-button" aria-label="search on DLK">
             <img src="/image/header/search-button.svg" alt="search">
         </button>
-        <a href="/contact.html" class="contact-button" aria-label="go to contact us">Contact us</a>
+        <a href="/contact.html" class="contact-button">Contact us</a>
     </header>
     <main class="main-blog">
         <section class="hero-blog">
-            <h1 class="blog-title">Blog</h1>
+            <h1 class="blog-title heading">Blog</h1>
             <ul class="blog-breadcrumbs">
                 <li class="blog-breadcrumbs__item">
                     <a href="index.html" aria-label="Go to main">Home</a>
@@ -49,20 +52,16 @@
             </ul>
         </section>
         <section class="main-blog-items">
-            <h2 class="visually-hidden">Blog</h2>
+            <h2 class="visually-hidden sub-heading">Blog</h2>
             <article class="blog-item">
                 <a href="#">
                     <img src="/image/blog/blog1.png" alt="constructor" class="blog-item-img">
                 </a>
                 <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
                 <a href="#" aria-label="Go to read">
-                    <h2 class="blog-item-title">Top 5 fastest growing it
-                        service companies in philly</h2>
+                    <h2 class="blog-item-title">Top 5 fastest growing it service companies in philly</h2>
                 </a>
-                <p class="blog-item-txt txt">Direct Line Development’s Team
-                    is excited to announce that we received UpCity’s 2019 Local
-                    Excellence Award! This prestigious award is annually presented
-                    to the Top 1% of service providers in the given marketplace.</p>
+                <p class="blog-item-txt txt">Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.</p>
             </article>
             <article class="blog-item">
                 <a href="#">
@@ -72,10 +71,7 @@
                 <a href="#" aria-label="Go to read">
                     <h2 class="blog-item-title">Best financial</h2>
                 </a>
-                <p class="blog-item-txt txt">Direct Line Development
-                    is honored to be recognized as one of the Top 100
-                    Fastest Growing Companies 2019 in Philadelphia,
-                    according to Growjo’s ranking.</p>
+                <p class="blog-item-txt txt">Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
             </article>
             <article class="blog-item">
                 <a href="#">
@@ -83,14 +79,10 @@
                 </a>
                 <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
                 <a href="#" aria-label="Go to read">
-                    <h2 class="blog-item-title">Company logo or brand
-                        identity: which one is more important? brand
-                        identity</h2>
+                    <h2 class="blog-item-title">Company logo or brand identity: which one is more important? brand identity
+                    </h2>
                 </a>
-                <p class="blog-item-txt txt">To survive in the world of
-                    digital marketing, you need to keep up with the latest
-                    SEO trends. Here are our simple, but effective, SEO
-                    tips for small business success.</p>
+                <p class="blog-item-txt txt">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
             </article>
             <article class="blog-item">
                 <a href="#">
@@ -100,10 +92,7 @@
                 <a href="#" aria-label="Go to read">
                     <h2 class="blog-item-title">Best financial</h2>
                 </a>
-                <p class="blog-item-txt txt">Direct Line Development
-                    is honored to be recognized as one of the Top 100
-                    Fastest Growing Companies 2019 in Philadelphia,
-                    according to Growjo’s ranking.</p>
+                <p class="blog-item-txt txt">Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
             </article>
             <article class="blog-item">
                 <a href="#">
@@ -111,11 +100,9 @@
                 </a>
                 <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
                 <a href="#" aria-label="Go to read">
-                    <h2 class="blog-item-title">Company logo or brand
-                        identity: which one is more important? brand identity</h2>
+                    <h2 class="blog-item-title">Company logo or brand identity: which one is more important? brand identity</h2>
                 </a>
-                <p class="blog-item-txt txt">To survive in the world of digital marketing, you need to keep up with the
-                    latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
+                <p class="blog-item-txt txt">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
             </article>
             <article class="blog-item">
                 <a href="#">
@@ -125,9 +112,7 @@
                 <a href="#" aria-label="Go to read">
                     <h2 class="blog-item-title">Top 5 fastest growing it service companies in philly</h2>
                 </a>
-                <p class="blog-item-txt txt">Direct Line Development’s Team is excited to announce that we received
-                    UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of
-                    service providers in the given marketplace.</p>
+                <p class="blog-item-txt txt">Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.</p>
             </article>
             <div class="wrapper-blog-control">
                 <button class="blog-control-button-left" type="button" aria-label="scroll-left"></button>
@@ -149,15 +134,15 @@
             </div>
         </section>
     </main>
-    <footer class="footer txt">
+    <footer class="footer">
         <div class="navigation">
-            <p class="navigation-title">Navigation</p>
-            <ul class="navigation-items">
+            <p class="navigation-title footer-title">Navigation</p>
+            <ul class="navigation-items footer-items">
                 <li class="navigation-item">
                     <a href="#" class="navigation-item-link">About Us</a>
                 </li>
                 <li class="navigation-item">
-                    <a href="blog.html" class="navigation-item-link" aria-label="go to blog">Blog</a>
+                    <a href="blog.html" class="navigation-item-link">Blog</a>
                 </li>
                 <li class="navigation-item">
                     <a href="#" class="navigation-item-link">Design Services</a>
@@ -173,8 +158,8 @@
                 </li>
             </ul>
             <div class="rating">
-                <p class="rating-title">Company Rating</p>
-                <ul class="rating-items">
+                <p class="rating-title footer-items">Company Rating</p>
+                <ul class="rating-items footer-items">
                     <li class="rating-item">
                         <img src="/image/footer/Star.svg" alt="star" class="star-img">
                     </li>
@@ -193,36 +178,36 @@
                 </ul>
             </div>
         </div>
-        <div class="customer-information">
-            <p class="customer-information-title">Customer Information</p>
-            <ul class="customer-list">
-                <li class="customer-information-item">
-                    <a href="contact.html" class="customer-information-item-link" aria-label="go to contact us">Contact Us</a>
+        <div class="customer-info">
+            <p class="customer-info-title footer-title">Customer Information</p>
+            <ul class="customer-info-list footer-items">
+                <li class="customer-info-item">
+                    <a href="contact.html" class="customer-info-item-link">Contact Us</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Sale Exclusions</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Sale Exclusions</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Shipping & Returns</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Shipping & Returns</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Terms & Conditions</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Terms & Conditions</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Privacy Policy</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Privacy Policy</a>
                 </li>
-                <li class="customer-information-item">
-                    <a href="#" class="customer-information-item-link">Search</a>
+                <li class="customer-info-item">
+                    <a href="#" class="customer-info-item-link">Search</a>
                 </li>
             </ul>
             <div class="copyright">
-                <p class="copyright-txt">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p class="copyright-txt footer-items">Copyright © 2018 Dlk • Design Life Kids</p>
             </div>
         </div>
         <div class="connect">
-            <p class="connect-title">Connect</p>
+            <p class="connect-title footer-title">Connect</p>
             <div class="connect-container">
-                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email">
+                <input id="connect-email-input" type="email" placeholder="email" class="connect-input-email footer-input-email">
                 <label for="connect-email-input" class="visually-hidden">Email</label>
                 <button type="button" class="connect-button button-style">Join</button>
             </div>
@@ -249,7 +234,7 @@
                 </li>
             </ul>
             <div class="web-design">
-                <p class="web-design-txt">Web Design — Direct Line Development</p>
+                <p class="web-design-txt footer-design">Web Design — Direct Line Development</p>
             </div>
         </div>
     </footer>

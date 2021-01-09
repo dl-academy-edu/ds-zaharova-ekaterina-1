@@ -1,0 +1,301 @@
+.hero-main {
+    background: #EEE4DB;
+}
+
+.sidebar {}
+
+.sidebar-number {
+    font-family: Montserrat, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+}
+
+.sidebar-button {
+    width: 31px;
+    height: 3px;
+    background: #D6CAC2;
+    border: none;
+}
+
+.sidebar-one {
+    width: 31px;
+    height: 3px;
+    background: rgba(30, 6, 6, 0.6);
+}
+
+.sidebar-button:hover {
+    width: 31px;
+    height: 3px;
+    background: rgba(30, 6, 6, 0.6);
+}
+
+.hero-title {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    color: #1E0606;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    font-family: Crimson Text, Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    color: #1E0606;
+}
+
+.hero-button {}
+
+.hero-footer {
+    font-family: Open Sans, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #C29974;
+    text-transform: uppercase;
+}
+
+.category-title {}
+
+.category-item-title {}
+
+.category-items {
+    list-style-type: none;
+}
+
+.category-cntrl-btn-left {
+    background: rgba(112, 187, 220, 0.2);
+}
+
+.category-cntrl-btn-right {
+    background: rgba(112, 187, 220, 0.2);
+}
+
+.category-cntrl-txt {}
+
+.delivery-title {}
+
+.delivery-items {
+    list-style-type: none;
+}
+
+. .delivery-item-btn {
+    font-family: Crimson Text, Arial, sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.delivery-item-btn:focus {
+    font-family: Crimson Text, Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #1E0606;
+    background: rgba(112, 187, 220, 0.2);
+    ;
+}
+
+.buy {
+    background: #E1F0F7;
+}
+
+.buy-title {}
+
+.buy-subtitle {
+    font-family: Crimson Text, Arial, sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    color: #1E0606;
+}
+
+.contacts {
+    background: #E1F0F7;
+}
+
+.footer {}
+
+
+/* #connect-email-input {}
+
+#name-input {}
+
+#phone-input {}
+
+#email-input {}
+
+#textatea-input {}
+
+#agree-input {}
+
+.header-logo-img {}
+
+.header-logo.visually-hidden {}
+
+.menu-nav {}
+
+.main {}
+
+.visually-hidden.heading {}
+
+.hero-img {}
+
+.heading {}
+
+.button-style {}
+
+.category {}
+
+.category-item {}
+
+.category-item-link {}
+
+.category-item-img {}
+
+.category-control {}
+
+.dilevery {}
+
+.dilevery-img {}
+
+.heading {}
+
+.delevery-items {}
+
+.delivery-txt.txt {}
+
+.delivery-button.button-style {}
+
+.partners {}
+
+.partners-title.visually-hidden.heading {}
+
+.partners-list {}
+
+.partner-item {}
+
+.partner-item-link {}
+
+.partner-item-img {}
+
+.aside {}
+
+.buy-txt.txt {}
+
+.buy-button.button-style {}
+
+.contacts-title.heading {}
+
+.contacts-txt.txt {}
+
+.contacts-img {}
+
+.navigation {}
+
+.navigation-title {}
+
+.navigation-items {}
+
+.navigation-item {}
+
+.navigation-item-link {}
+
+.rating {}
+
+.rating-title {}
+
+.rating-items {}
+
+.rating-item {}
+
+.star-img {}
+
+.customer-information {}
+
+.customer-information-title {}
+
+.customer-list {}
+
+.customer-information-item {}
+
+.customer-information-item-link {}
+
+.copyright {}
+
+.copyright-txt {}
+
+.connect {}
+
+.connect-title {}
+
+.connect-container {}
+
+.connect-input-email {}
+
+.visually-hidden {}
+
+.connect-button.button-style {}
+
+.social-items {}
+
+.social-item {}
+
+.social-item-facebook {}
+
+.facebook-img {}
+
+.social-item-twitter {}
+
+.twitter-img {}
+
+.social-item-pinterest {}
+
+.pinterest-img {}
+
+.social-item-instagram {}
+
+.instagram-img {}
+
+.web-design {}
+
+.web-design-txt {}
+
+.modal {}
+
+.form-name {}
+
+.form-phone-email {}
+
+.form-phone {}
+
+.form-email {}
+
+.agree {}
+
+.input {}
+
+.form-button.button-style {}
+
+.close-button {}
+
+
+/* font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+*/
