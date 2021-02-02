@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog</title>
+    <title>Blog</title>
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/common.css">
-    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/blog.css">
 </head>
 
 <body>
@@ -43,90 +43,117 @@
             </div>
         </div>
     </header>
-    <main class="main-catalog">
-        <div class="catalog-breadcrumbs-wrapper container">
-            <h1 class="category-title heading">Category products</h1>
-            <ul class="catalog-breadcrumbs-list">
-                <li class="catalog-breadcrumb-item">
-                    <a href="index.html" aria-label="go to main">Home</a>
+    <main class="main-blog">
+        <div class="blog-breadcrumbs-wrapper container">
+            <h1 class="blog-title heading">Blog</h1>
+            <ul class="blog-breadcrumbs-list">
+                <li class="blog-breadcrumb-item">
+                    <a href="index.html" aria-label="Go to main">Home</a>
                 </li>
-                <li class="catalog-breadcrumb-item">
+                <li class="blog-breadcrumb-item">
                     <!-- Эту стрелочку нужно сделать в CSS -->
                     <img src="/image/category/arrow.svg" alt="Arrow">
                 </li>
-                <li class="catalog-breadcrumb-item">
-                    Catalog
+                <li class="blog-breadcrumb-item">
+                    Blog
                 </li>
             </ul>
         </div>
-        <section class="catalog container">
-            <h2 class="visually-hidden sub-heading">Catalog</h2>
-            <ul class="catalog-items-top catalog-txt-style">
-                <li class="catalog-item-top">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Apparel<br> kids
+        <section class="main-blog-items container">
+            <h2 class="visually-hidden sub-heading">Blog</h2>
+            <div class="blog-items-wrapper">
+                <article class="blog-item">
+                    <a href="#" aria-label="Go to read" class="blog-flex">
+                        <img src="/image/blog/blog1.png" alt="constructor" class="blog-item-img" width="380"
+                            height="220">
+                        <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
+                        <h3 class="blog-item-title">Top 5 fastest growing it service companies in philly</h3>
+                        <p class="blog-item-txt txt">Direct Line Development’s Team is excited to announce that we
+                            received
+                            UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the
+                            Top 1%
+                            of service providers in the given marketplace.</p>
+                    </a>
+                </article>
+                <article class="blog-item">
+                    <a href="#" aria-label="Go to read" class="blog-flex">
+                        <img src="/image/blog/blog2.png" alt="image" class="blog-item-img" width="380" height="220">
+                        <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
+                        <h3 class="blog-item-title">Best financial</h3>
+                        <p class="blog-item-txt txt">Direct Line Development is honored to be recognized as one of the
+                            Top
+                            100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
+                    </a>
+                </article>
+                <article class="blog-item">
+                    <a href="#" aria-label="Go to read" class="blog-flex">
+                        <img src="/image/blog/blog3.png" alt="image" class="blog-item-img" width="380" height="220">
+                        <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
+                        <h3 class="blog-item-title">Company logo or brand identity: which one is more important? brand
+                            identity
                         </h3>
-                        <img src="/image/category/apparel.png" alt="image" class="catalog-item-img apparel-bckgrnd"
-                            height="270" width="280">
+                        <p class="blog-item-txt txt">To survive in the world of digital marketing, you need to keep up
+                            with
+                            the latest SEO trends. Here are our simple, but effective, SEO tips for small business
+                            success.
+                        </p>
                     </a>
-                </li>
-                <li class="catalog-item-top">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Holiday<br> shop
-                        </h3>
-                        <img src="/image/category/holiday.png" alt="image" class="catalog-item-img holiday-bckgrnd"
-                            height="270" width="280">
+                </article>
+                <article class="blog-item">
+                    <a href="#" aria-label="Go to read" class="blog-flex">
+                        <img src="/image/blog/blog4.png" alt="image" class="blog-item-img" width="380" height="220">
+                        <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
+                        <h3 class="blog-item-title">Best financial</h3>
+                        <p class="blog-item-txt txt">Direct Line Development is honored to be recognized as one of the
+                            Top
+                            100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
                     </a>
-                </li>
-                <li class="catalog-item-top">
-                    <a href="/toys.html" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Toys</h3>
-                        <img src="/image/category/toys.png" alt="image" class="catalog-item-img toys-bckgrnd"
-                            height="270" width="280">
+                </article>
+                <article class="blog-item">
+                    <a href="#" aria-label="Go to read" class="blog-flex">
+                        <img src="/image/blog/blog5.png" alt="image" class="blog-item-img" width="380" height="220">
+                        <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
+                        <h3 class="blog-item-title">Company logo or brand identity: which one is more important? brand
+                            identity</h3>
+                        <p class="blog-item-txt txt">To survive in the world of digital marketing, you need to keep up
+                            with
+                            the latest SEO trends. Here are our simple, but effective, SEO tips for small business
+                            success.
+                        </p>
                     </a>
-                </li>
-            </ul>
-            <ul class="catalog-items-bottom catalog-txt-style">
-                <li class="catalog-item-bottom">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Accessories</h3>
-                        <img src="/image/category/accessories.png" alt="image"
-                            class="catalog-item-img accessories-bckgrnd" height="270" width="280">
+                </article>
+                <article class="blog-item">
+                    <a href="#" aria-label="Go to read" class="blog-flex">
+                        <img src="/image/blog/blog6.png" alt="image" class="blog-item-img" width="380" height="220">
+                        <time class="blog-item-time" datetime="2018-08-23">23rd August 2018</time>
+                        <h3 class="blog-item-title">Top 5 fastest growing it service companies in philly</h3>
+                        <p class="blog-item-txt txt">Direct Line Development’s Team is excited to announce that we
+                            received
+                            UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the
+                            Top 1%
+                            of service providers in the given marketplace.</p>
                     </a>
-                </li>
-                <li class="catalog-item-bottom">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Sale</h3>
-                        <img src="/image/category/sale.png" alt="image" class="catalog-item-img sale-bckgrnd"
-                            height="270" width="280">
-                    </a>
-                </li>
-                <li class="catalog-item-bottom">
-                    <a href="#" class="catalog-item-link">
-                        <h3 class="catalog-item-title">Apparel<br> adults
-                        </h3>
-                        <img src="/image/category/adults.png" alt="image" class="catalog-item-img adults-bckgrnd"
-                            height="270" width="280">
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <section class="description container">
-            <div class="description-wrapper">
-                <h2 class="description-title sub-heading">Product Description</h2>
-                <p class="description-txt txt">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle
-                    and
-                    almost really cry. You can even bathe her, just like a little sister.</p>
-                <p class="description-txt txt">A toy with a height of 43 cm bends its knees, the head rotates, it can
-                    stand
-                    upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.
-                </p>
-                <p class="description-txt txt">The set includes a miniature set of fashionable clothes, a hairbrush, a
-                    bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for
-                    the
-                    doll, the other for her young mistress.</p>
+                </article>
             </div>
         </section>
+        <div class="wrapper-blog-control container">
+            <button class="blog-control-button-left" type="button" aria-label="scroll-left"></button>
+            <ul class="blog-navigation-list">
+                <li class="blog-navigation-item">
+                    <a href="#" aria-label="page 1" class="blog-navigation-item-first">1</a>
+                </li>
+                <li class="blog-navigation-item">
+                    <a href="#" aria-label="page 2">2</a>
+                </li>
+                <li class="blog-navigation-item">
+                    <a href="#" aria-label="page 3">3</a>
+                </li>
+                <li class="blog-navigation-item">
+                    <a href="#" aria-label="page 4">4</a>
+                </li>
+            </ul>
+            <button class="blog-control-button-right" type="button" aria-label="scroll-right"></button>
+        </div>
     </main>
     <footer class="footer container">
         <div class="footer-title-wrapper">
