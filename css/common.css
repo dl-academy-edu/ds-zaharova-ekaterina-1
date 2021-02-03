@@ -149,13 +149,11 @@ fieldset {
 }
 .sale-bckgrnd {
     background-color: #F3D0DB;
-    ;
 
 } 
 
 .adults-bckgrnd {
     background-color: #E5EAF8;
-    ;
  
 }
 /* HEADER */
@@ -164,6 +162,7 @@ fieldset {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     width: 1180px;
     box-sizing: content-box;
     padding-top: 50px;
@@ -171,7 +170,6 @@ fieldset {
 .logo-menu-wrapper{
     display: flex;
     flex-direction: row;
-    margin-right: 675px;
 }
 
 .header-logo-img {
@@ -180,16 +178,15 @@ fieldset {
 }
 
 .header-logo-img:not(.header-logo-main):hover {
-    opacity: 0,5;
+    opacity: 0.5;
 }
 
 .header-logo-img:not(.header-logo-main):active {
-    opacity: 0,2;
+    opacity: 0.2;
 }
 
 .menu-nav {
     display: flex;
-    flex-basis: 210px;
     margin-left: 60px;
     padding-top: 16px;
 }
@@ -199,6 +196,8 @@ fieldset {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 0;
+    flex-wrap: wrap;
+    row-gap: 9px;
 }
 .menu-item + .menu-item {
  margin-left: 20px;
@@ -224,15 +223,12 @@ fieldset {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-basis: 136px;
-    min-height: 24px;
+    min-width: 136px;
 }
-.search-wrapper {
+.search-btn {
     display: flex;
     align-items: center;
     margin-right: 26px;
-}
-.search-btn {
     height: 18px;
     width: 17px;
     background-image: url(/image/header/search-button.svg);
@@ -248,9 +244,6 @@ fieldset {
 .search-btn:active {
     opacity: 0.2;
 }
-.contact-wrapper {
-    word-spacing: 4px;
-}
 .contact-button {
     font-family: Open Sans, Arial, sans-serif;
     font-size: 14px;
@@ -259,6 +252,7 @@ fieldset {
     line-height: 19px;
     color: #1E0606;
     text-transform: uppercase;
+    word-spacing: 4px;
 }
 
 .contact-button:hover {
@@ -279,29 +273,29 @@ fieldset {
     font-weight: normal;
 }
 input, textarea {
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .main-wrapper input:hover {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
 }
 .main-wrapper input:active {
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .main-wrapper input:focus {
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .main-wrapper textarea:hover {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
 }
 .main-wrapper textarea:active {
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .main-wrapper textarea:focus {
     outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 0, 0, 0.2);
 }
 .contact-form label {
     margin-bottom: 3px;
@@ -443,7 +437,7 @@ textarea {
     line-height: 22px;
     background-color: #434343;
     text-transform: capitalize;
-    width: 1400px;
+    width: 100%;
     padding-bottom: 100px;
 }
 .footer {
@@ -529,7 +523,9 @@ textarea {
     background-color: #666666;
     border: none;
 }
-
+.connect-input-email {
+    outline: none;
+}
 .connect-input-email::placeholder {
     font-family: Open Sans, Arial, sans-serif;
     font-style: normal;

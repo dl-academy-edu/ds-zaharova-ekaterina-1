@@ -40,21 +40,19 @@
     flex-direction: column;
     margin-bottom: 55px;
 }
-.catalog-items-top, .catalog-items-bottom {
+.catalog-items {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    row-gap: 23px;
 }
-.catalog-items-top {
-    justify-content: flex-start;
-    margin-bottom: 23px;
-}
-.catalog-items-bottom {
+.catalog-item:nth-child(4) {
     padding-left: 200px;
 }
-.catalog-item-top, .catalog-item-bottom{
+
+.catalog-item {
     margin-right: 20px;
 }
-.catalog-item-top:last-child, .catalog-item-bottom:last-child {
+.catalog-item:last-child{
     margin-right: 0px;
 }
 .catalog-item-link {
@@ -65,6 +63,9 @@
 }
 .catalog-item-title {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 129px;
 }
 
 /* Section description */
