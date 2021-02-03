@@ -69,6 +69,7 @@
     color: #1E0606;
     text-transform: uppercase;
     margin-bottom: 20px;
+    width: 307px;
 }
 .hero-text {
     font-family: Crimson Text, Arial, sans-serif;
@@ -214,6 +215,9 @@
 }
 .category-item-title{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 129px;
 }
 
 .category-item-link{
@@ -408,14 +412,14 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-bottom: 145px;
+    margin-bottom: 147px;
+    
 }
 .buy {
     margin-right: 57px;
     min-height: 236px;
 }
-.buy,.contacts {
-    position: relative;
+.buy, .contacts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -471,14 +475,12 @@
 }
 .contacts-txt {
     padding-right: 30px;
-    padding-bottom: 102px;
+    margin-bottom: 20px;
 }
 .contacts-img {
-    position: absolute;
     width: 483px;
     height: 196px;
-    top: 127px;
-    left: 30px;
+    margin-bottom: -114px;
 }
 
 /* Modal/Form */
